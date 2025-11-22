@@ -2,8 +2,8 @@ import { useRef } from "react"
 import ContentLayout from "../../../layouts/Content"
 import Typography from "../../_shared/Typography"
 import { useVisibility } from "../../../utils/custom-hook"
-import ImaFoto from "../../../../public/images/rosita.jpg"
-import AgusFoto from "../../../../public/images/alam.jpg"
+import ImaFoto from "../../../../public/images/cmiw.jpeg"
+import AgusFoto from "../../../../public/images/wiw.jpeg"
 
 export default function ContentBrideComponent() {
   const messageOpeningRef: any = useRef(null)

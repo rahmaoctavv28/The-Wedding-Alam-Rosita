@@ -5,6 +5,11 @@ import { useVisibility } from "../../../utils/custom-hook"
 import Gallery1 from "../../../../public/images/gallery1.jpg"
 import Gallery2 from "../../../../public/images/gallery2.jpg"
 import Gallery3 from "../../../../public/images/gallery3.jpg"
+import Gallery4 from "../../../../public/images/gallery4.jpg"
+import Gallery5 from "../../../../public/images/gallery5.jpg"
+import Gallery6 from "../../../../public/images/gallery6.jpg"
+import Gallery7 from "../../../../public/images/gallery7.jpg"
+import Gallery8 from "../../../../public/images/gallery8.jpg"
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"
 
 const images = [
@@ -16,6 +21,21 @@ const images = [
   },
   {
     src: Gallery3,
+  },
+  {
+    src: Gallery4,
+  },
+  {
+    src: Gallery5,
+  },
+  {
+    src: Gallery6,
+  },
+  {
+    src: Gallery7,
+  },
+  {
+    src: Gallery8,
   },
 ]
 

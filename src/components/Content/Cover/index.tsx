@@ -16,7 +16,7 @@ export default function ContentCoverComponent() {
           <Typography
             weight="medium"
             size="insight"
-            text="Ima"
+            text="Rosita"
             className="font-dancingScript text-5xl"
           />
           <Typography
@@ -28,18 +28,18 @@ export default function ContentCoverComponent() {
           <Typography
             weight="medium"
             size="insight"
-            text="Agus"
+            text="Alam"
             className="font-dancingScript text-5xl"
           />
         </div>
         <div className="mt-16 flex flex-col items-center">
-          <Typography size="large" weight="medium" text="Sabtu" />
+          <Typography size="large" weight="medium" text="Minggu" />
           <div className="grid grid-cols-5 place-items-center">
-            <Typography size="regular" weight="medium" text="27" />
+            <Typography size="regular" weight="medium" text="30" />
             <span className="w-1 h-1 rounded-full bg-black" />
-            <Typography size="regular" weight="medium" text="01" />
+            <Typography size="regular" weight="medium" text="11" />
             <span className="w-1 h-1 rounded-full bg-black" />
-            <Typography size="regular" weight="medium" text="2024" />
+            <Typography size="regular" weight="medium" text="2025" />
           </div>
         </div>
         <div className="mt-8">

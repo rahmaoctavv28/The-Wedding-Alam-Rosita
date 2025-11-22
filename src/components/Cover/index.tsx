@@ -40,7 +40,7 @@ export default function CoverComponent({ onOpen }: CoverComponentProps) {
           <Typography
             weight="medium"
             size="insight"
-            text="Ima"
+            text="Rosita"
             className="font-dancingScript text-5xl"
           />
           <Typography
@@ -52,24 +52,24 @@ export default function CoverComponent({ onOpen }: CoverComponentProps) {
           <Typography
             weight="medium"
             size="insight"
-            text="Agus"
+            text="Alam Saputra"
             className="font-dancingScript text-5xl"
           />
         </div>
         <div className="flex items-center mt-20">
-          <Typography size="subtitle" weight="medium" text="Sabtu" />
+          <Typography size="subtitle" weight="medium" text="Minggu" />
           <span className="h-16 lg:h-20 w-[2px] bg-black mx-4" />
           <div className="text-center">
             <Typography
               size="insight"
               weight="semibold"
-              text="27"
+              text="30"
               className="text-secondary"
             />
-            <Typography size="subtitle" weight="medium" text="Januari" />
+            <Typography size="subtitle" weight="medium" text="November" />
           </div>
           <span className="h-16 lg:h-20 w-[2px] bg-black mx-4" />
-          <Typography size="subtitle" weight="medium" text="2024" />
+          <Typography size="subtitle" weight="medium" text="2025" />
         </div>
         <Typography
           size="regular"

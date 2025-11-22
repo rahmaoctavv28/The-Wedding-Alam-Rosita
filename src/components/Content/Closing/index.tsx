@@ -4,12 +4,7 @@ import Typography from "../../_shared/Typography"
 import { useVisibility } from "../../../utils/custom-hook"
 
 const INVITEES = [
-  "Kel. (Alm) Awang Wiangsih & (Alm) Kasriyo",
-  "Walia Wahamsyah (Ketua PAC Cinambo)",
-  "Lilis Sugiarni",
-  "Anindha Yanti (Neng)",
-  "Listya Ayu Intan Pratama",
-  "Rizky Nugraha (Bendahara PAC)",
+  "Kedua Belah Pihak Aalam & Rosita"
 ]
 
 export default function ContentClosingComponent() {

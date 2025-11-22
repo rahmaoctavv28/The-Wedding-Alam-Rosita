@@ -2,7 +2,7 @@ import { useRef } from "react"
 import ContentLayout from "../../../layouts/Content"
 import Typography from "../../_shared/Typography"
 import { useVisibility } from "../../../utils/custom-hook"
-import MandiriLogo from "../../../../public/images/MandiriLogo.png"
+import BCALogo from "../../../../public/images/BCALogo.png"
 
 export default function ContentGiftComponent() {
   const titleRef: any = useRef(null)
@@ -34,7 +34,7 @@ export default function ContentGiftComponent() {
           <Typography
             size="small"
             weight="extralight"
-            text="Anda dapat mengirimkan kado cashless. Pilih metode pembayaran dibawah:"
+            text="Anda dapat mengirimkan kado cashless:"
             className={`text-center mt-1 hidden md:block transition-all duration-1000 ease-in-out ${
               isTitleVisibility
                 ? " translate-y-0 opacity-100"
@@ -51,8 +51,8 @@ export default function ContentGiftComponent() {
           }`}
         >
           <img
-            src={MandiriLogo}
-            alt="Bank Mandiri"
+            src={BCALogo}
+            alt="Bank BCA"
             className="w-6/12 lg:w-5/12 rounded-lg"
           />
         </div>
@@ -69,60 +69,14 @@ export default function ContentGiftComponent() {
             <Typography
               size="regular"
               weight="medium"
-              text="Ima Putri Yulianto"
+              text="Alam Saputra"
               className="text-secondary"
             />
             <Typography size="regular" weight="bold" text="Nomor Rekening" />
             <Typography
               size="regular"
               weight="medium"
-              text="1250014560411"
-              className="text-secondary"
-            />
-          </div>
-          <div
-            ref={secondAccountRef}
-            className={`flex flex-col items-center mt-8 lg:mt-0 lg:ms-4 transition-all duration-1000 ease-in-out ${
-              isSecondAccountVisibility
-                ? " translate-y-0 opacity-100"
-                : " translate-y-full opacity-0"
-            }`}
-          >
-            <Typography size="regular" weight="bold" text="Atas Nama" />
-            <Typography
-              size="regular"
-              weight="medium"
-              text="I Gusti Putu Agus Pu"
-              className="text-secondary"
-            />
-            <Typography size="regular" weight="bold" text="Nomor Rekening" />
-            <Typography
-              size="regular"
-              weight="medium"
-              text="1750002121548"
-              className="text-secondary"
-            />
-          </div>
-          <div
-            ref={thirdAccountRef}
-            className={`flex flex-col items-center mt-8 lg:col-span-2 transition-all duration-1000 ease-in-out ${
-              isThirdAccountVisibility
-                ? " translate-y-0 opacity-100"
-                : " translate-y-full opacity-0"
-            }`}
-          >
-            <Typography size="regular" weight="bold" text="Atas Nama" />
-            <Typography
-              size="regular"
-              weight="medium"
-              text="Eko Yulianto"
-              className="text-secondary"
-            />
-            <Typography size="regular" weight="bold" text="Nomor Rekening" />
-            <Typography
-              size="regular"
-              weight="medium"
-              text="1200010929201"
+              text="2833299565"
               className="text-secondary"
             />
           </div>

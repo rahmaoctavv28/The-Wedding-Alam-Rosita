@@ -60,10 +60,10 @@ export default function ContentScheduleComponent() {
             <Typography
               size="regular"
               weight="medium"
-              text="Sabtu, 27 Januari 2024"
+              text="Minggu, 30 November 2025"
               className="text-secondary"
             />
-            <Typography size="regular" weight="medium" text="10.00 s/d 15.00" />
+            <Typography size="regular" weight="medium" text="09.00 s/d 16.00" />
           </div>
           <div className="flex flex-col items-center mt-4">
             <Typography

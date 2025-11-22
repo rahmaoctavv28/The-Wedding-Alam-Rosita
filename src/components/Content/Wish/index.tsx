@@ -4,9 +4,9 @@ import Typography from "../../_shared/Typography"
 import { useVisibility } from "../../../utils/custom-hook"
 import CustomButton from "../../_shared/Form/CustomButton"
 
-const BRIDE_NAME = "Ima Putri Yulianto"
-const GROOM_NAME = "I Gusti Putu Agus Kesatria Wiguna"
-const PHONE_NUMBER = "+62881024447281"
+const BRIDE_NAME = "Rosita Celsi"
+const GROOM_NAME = "Alam Saputra"
+const PHONE_NUMBER = "+62881025268884"
 
 export default function ContentWishComponent() {
   const titleRef: any = useRef(null)

@@ -2,8 +2,8 @@ import { useRef } from "react"
 import ContentLayout from "../../../layouts/Content"
 import Typography from "../../_shared/Typography"
 import { useVisibility } from "../../../utils/custom-hook"
-import ImaFoto from "../../../../public/images/ima.jpg"
-import AgusFoto from "../../../../public/images/agus.jpg"
+import ImaFoto from "../../../../public/images/rosita.jpg"
+import AgusFoto from "../../../../public/images/alam.jpg"
 
 export default function ContentBrideComponent() {
   const messageOpeningRef: any = useRef(null)
@@ -55,13 +55,13 @@ export default function ContentBrideComponent() {
                   : " translate-y-full opacity-0"
               }`}
             >
-              <img src={ImaFoto} alt="Ima" className="rounded-full" />
+              <img src={ImaFoto} alt="Rosita" className="rounded-full" />
             </div>
             <div ref={brideNameRef}>
               <Typography
                 size="title"
                 weight="medium"
-                text="Ima Putri Yulianto"
+                text="Rosita Celsi"
                 className={`text-secondary text-center mt-4 font-dancingScript transition-all duration-1000 ease-in-out ${
                   isBrideNameVisibility
                     ? " translate-y-0 opacity-100"
@@ -71,7 +71,7 @@ export default function ContentBrideComponent() {
               <Typography
                 size="small"
                 weight="thin"
-                text="Putri Bpk. Eko Yulianto & Ibu Yanti Ristianti"
+                text="Putri Bpk. Dedi Kusmayanto & Ibu Nopi"
                 className={` text-center transition-all duration-1000 ease-in-out ${
                   isBrideNameVisibility
                     ? " translate-y-0 opacity-100"
@@ -101,13 +101,13 @@ export default function ContentBrideComponent() {
                   : " translate-y-full opacity-0"
               }`}
             >
-              <img src={AgusFoto} alt="Agus" className="rounded-full" />
+              <img src={AgusFoto} alt="Alam" className="rounded-full" />
             </div>
             <div ref={groomNameRef}>
               <Typography
                 size="title"
                 weight="medium"
-                text="I Gusti Putu Agus Kesatria Wiguna"
+                text="Alam Saputra"
                 className={`text-secondary text-center mt-4 font-dancingScript transition-all duration-1000 ease-in-out ${
                   isGroomNameVisibility
                     ? " translate-y-0 opacity-100"
@@ -117,7 +117,7 @@ export default function ContentBrideComponent() {
               <Typography
                 size="small"
                 weight="thin"
-                text="Putra Bpk. I Gusti Ngurah Rai Parwata & Ibu I Gusti Putu Ayu Sri Astini"
+                text="Putra Bpk. Asep Setiadi(Abek) & Ibu Limawati (Elis)"
                 className={` text-center transition-all duration-1000 ease-in-out ${
                   isGroomNameVisibility
                     ? " translate-y-0 opacity-100"
